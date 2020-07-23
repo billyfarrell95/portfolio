@@ -60,13 +60,7 @@ header {
     right: 0;
     opacity: 70%;
 }
-.nav-email {
-    font-family: azo-sans-web,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    display: block;
-    padding: 0.5rem 1rem;
-}
+
 .overlay-link {
     text-align: center;
     bottom: 0;
@@ -99,16 +93,7 @@ header {
     box-shadow: 0 4px 8px 0 black;
     padding: 5.5px;
 }
-p {
-    font-family: azo-sans-web,sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-h {
-    font-family: azo-sans-web,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
+
 .resume-section {
     padding-bottom: 20px;   
 }
@@ -123,12 +108,7 @@ h {
     top: 0px;
     left: 0px;
 }
-.sitemap {
-    font-family: azo-sans-web,sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 20px;
-}
+
 .no-bullets {
     list-style: none;
 }
@@ -142,40 +122,11 @@ h {
 .linkedin-logo {
     margin-top: 15px;
 }
-.section-header {
-    font-family: azo-sans-web,sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    padding-top: 30px;
-    padding-bottom: 15px;
-}
-.nav-link {
-    font-family: azo-sans-web,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.home-nav-link {
-    font-family: azo-sans-web,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
+
 .home-nav-link:hover {
     color: aqua;
 }
-@media screen and (max-width: 450px) {
-.header-one {
-  font-size: 2rem;
-    font-family: azo-sans-web, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    }}
-    @media screen and (min-width: 768px) {
-      .header-one {
-        font-size: 3rem;
-          font-family: azo-sans-web, sans-serif;
-          font-weight: 400;
-          font-style: normal;
-          }}
+
 .header-two {
     opacity: 80%;
 }
@@ -282,3 +233,64 @@ h {
     width: 100%;
   }
 }
+
+/* FONTS  */
+
+@media screen and (max-width: 450px) {
+.header-one {
+  font-size: 2rem;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }}
+    @media screen and (min-width: 768px) {
+      .header-one {
+        font-size: 3rem;
+          font-family: azo-sans-web, sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          }}
+p {
+    font-family: azo-sans-web,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h {
+    font-family: azo-sans-web,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nav-email {
+    font-family: azo-sans-web,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.sitemap {
+    font-family: azo-sans-web,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.section-header {
+    font-family: azo-sans-web,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.nav-link {
+    font-family: azo-sans-web,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.home-nav-link {
+    font-family: azo-sans-web,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
