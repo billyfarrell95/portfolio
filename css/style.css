@@ -32,6 +32,13 @@ header {
     padding-top: 65px;
 }
 /* My Custom CSS........................................ */
+
+.img-fluid-height {
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+}
 .input-style {
     padding: 5px;
 }
