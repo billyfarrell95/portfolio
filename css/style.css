@@ -32,6 +32,20 @@ header {
     padding-top: 65px;
 }
 /* My Custom CSS........................................ */
+.input-style {
+    padding: 5px;
+}
+.set-width {
+    width: 100%;
+}
+
+.project-ext-link {
+    width: 10rem;
+}
+
+.rounded-corner {
+    border-radius: 15px;
+}
 
 #home-button-wrapper {
     width: 100%;
@@ -112,7 +126,7 @@ header {
 }
 .resume-content:hover {
     box-shadow: 0 4px 8px 0 black;
-    padding: 5.5px;
+    padding: 15px;
 }
 
 .resume-section {
@@ -120,7 +134,7 @@ header {
 }
 .resume-content {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 5px;
+    padding: 15px;
 }
 .my-logo {
     text-align: left;
