@@ -33,6 +33,11 @@ header {
 }
 /* My Custom CSS........................................ */
 
+@media only screen and (max-width: 540px) {
+  .spacer {
+    padding-top: 15px;
+  }
+}
 .img-fluid-height {
     width: auto;
     height: 300px;
@@ -75,6 +80,9 @@ header {
     border-width: medium;
     border-radius: .25rem;
     width: 280px;
+    font-family: azo-sans-web,sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .view-my-portfolio-button:hover {
     background-color: transparent;
@@ -89,6 +97,9 @@ header {
   color: #fff;
   background-color: #495057;
   border-color: #495057;
+  font-family: azo-sans-web,sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .download-button:hover {
   color: white;
@@ -336,4 +347,10 @@ h {
     font-weight: 400;
     font-style: normal;
 }
+ul {
+    font-family: azo-sans-web,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 
