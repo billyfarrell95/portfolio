@@ -33,6 +33,11 @@ header {
 }
 /* My Custom CSS........................................ */
 
+#taylor-mockup {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 @media only screen and (max-width: 540px) {
   .spacer {
     padding-top: 15px;
@@ -289,6 +294,12 @@ header {
 }
 
 /* FONTS  */
+
+#weight-thin {
+    font-family: azo-sans-web,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
 
 @media screen and (max-width: 450px) {
 .header-one {
