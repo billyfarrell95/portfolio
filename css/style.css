@@ -38,9 +38,9 @@ header {
     margin-bottom: auto;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 576px) {
   .spacer {
-    padding-top: 15px;
+    padding-top: 2rem;
   }
 }
 .img-fluid-height {
@@ -254,14 +254,8 @@ header {
   display: inline-block;
   padding-right: 5px;
 }
-@media only screen and (min-width: 1280px) {
-  .contain {
-    width: 1200px;
-    margin: 0 auto;
-  }
-}
-@media only screen and (max-width: 1139px) {
-  .contain .social {
+@media only screen and (max-width: 1200px) {
+  .social {
     width: 1000px;
     display: block;
   }
@@ -269,7 +263,7 @@ header {
     margin: 0px;
   }
 }
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 992px) {
   .footer .col {
     width: 100%;
   }
@@ -280,7 +274,7 @@ header {
     font-size: 13px;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 576px) {
     .footer .col {
       width: 100%;
     }
@@ -291,7 +285,7 @@ header {
       font-size: 13px;
     }
 }
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 576px) {
   .footer .col {
     width: 100%;
   }
@@ -303,7 +297,7 @@ header {
     font-style: normal;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 576px) {
 .header-one {
   font-size: 2rem;
     font-family: azo-sans-web, sans-serif;
@@ -371,8 +365,13 @@ ul {
 .social-icon {
   margin: 1rem;
 }
-
-#azo-sans {
+.img-shadow {
   box-shadow: 0px 4px 8px 0px gray;
-
+}
+.palette-dot {
+  height: 25px;
+  width: 25px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
 }
