@@ -368,10 +368,46 @@ ul {
 .img-shadow {
   box-shadow: 0px 4px 8px 0px gray;
 }
-.palette-dot {
-  height: 25px;
-  width: 25px;
-  background-color: green;
+.palette-amethyst-purple {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(91, 43, 130);
   border-radius: 50%;
   display: inline-block;
+}
+.palette-amethyst-green {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(138, 226, 209);
+  border-radius: 50%;
+  display: inline-block;
+}
+.palette-amethyst-black {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(17, 24, 32);
+  border-radius: 50%;
+  display: inline-block;
+}
+.palette-amethyst-gray {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(169, 168, 169);
+  border-radius: 50%;
+  display: inline-block;
+}
+#arial-bold {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+#arial-bold-italic {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+}
+#arial {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
