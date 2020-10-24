@@ -426,3 +426,24 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
+.amore-rgb-font {
+  font-size: 14px;
+}
+#goudy-regular {
+  font-family: goudy-old-style,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+#goudy-italic {
+  font-family: goudy-old-style, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+}
+#goudy-bold {
+  font-family: goudy-old-style, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
