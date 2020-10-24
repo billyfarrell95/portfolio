@@ -467,3 +467,63 @@ ul {
 #segoe-ui {
   font-size: 18px;
 }
+.palette-acadia-black {
+  height: 30px;
+  width: 30px;
+  background-color:#000000;
+  border-radius: 50%;
+  display: inline-block;
+}
+.palette-acadia-gray {
+  height: 30px;
+  width: 30px;
+  background-color:#E4E7E6;
+  border-radius: 50%;
+  display: inline-block;
+}
+.palette-acadia-brown {
+  height: 30px;
+  width: 30px;
+  background-color: #8A3324;
+  border-radius: 50%;
+  display: inline-block;
+}
+.palette-acadia-orange {
+  height: 30px;
+  width: 30px;
+  background-color:#E9692C;
+  border-radius: 50%;
+  display: inline-block;
+}
+.palette-acadia-yellow {
+  height: 30px;
+  width: 30px;
+  background-color:#FFF000;
+  border-radius: 50%;
+  display: inline-block;
+}
+.palette-acadia-green {
+  height: 30px;
+  width: 30px;
+  background-color: #4CBB17;
+  border-radius: 50%;
+  display: inline-block;
+}
+#cambria-regular {
+  font-family: 'Cambria', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+#cambria-italic {
+  font-family: 'Cambria', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+}
+#cambria-bold {
+  font-family: 'Cambria', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+}
