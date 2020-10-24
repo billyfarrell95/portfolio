@@ -297,9 +297,7 @@ header {
   }
 }
 
-/* FONTS  */
-
-#weight-thin {
+.weight-thin {
     font-family: azo-sans-web,sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -372,4 +370,9 @@ ul {
 }
 .social-icon {
   margin: 1rem;
+}
+
+#azo-sans {
+  box-shadow: 0px 4px 8px 0px gray;
+
 }
