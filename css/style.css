@@ -522,3 +522,16 @@ ul {
 .hr-custom {
   border-top: 3px solid rgba(0, 0, 0, 0.1) !important;
 }
+.portfolio-button {
+  color: #fff;
+  background: #004875;
+  border-color: #495057;
+  font-family: azo-sans-web,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 2rem;
+}
+.portfolio-button:hover {
+  color: lightblue;
+  border-color:#004875;
+}
