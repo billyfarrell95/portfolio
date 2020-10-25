@@ -38,7 +38,7 @@ header {
     margin-bottom: auto;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   .spacer {
     padding-top: 2rem;
   }
