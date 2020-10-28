@@ -24,6 +24,13 @@ header {
     padding-top: 65px;
 }
 /* My Custom CSS........................................ */
+.content-container {
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  resize: none;
+  background-color: #EAEFFA;
+}
 
 #taylor-mockup {
     margin-top: auto;
@@ -133,7 +140,7 @@ header {
     background: rgba(0, 0, 0, .6);
 }
 .resume-content:hover {
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 #2B517A;
     padding: 15px;
 }
 
@@ -141,13 +148,13 @@ header {
     padding-bottom: 20px;   
 }
 .resume-content {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 15px;
 }
 .my-logo {
     text-align: left;
-    width: 15vh;
-    max-width: 15vh;
+    width: 4rem;
+    max-width: 4rem;
     position: relative;
     top: 0px;
     left: 0px;
@@ -180,10 +187,6 @@ header {
 .home-nav-link:hover {
     color: aqua;
 }
-
-.header-two {
-    opacity: 80%;
-}
 /* This is used to make sure each section is at minimum 100% of the view height */
 .home-container {
     height: 75vh;
@@ -192,13 +195,18 @@ header {
     background-size: cover;
     position: relative;
 }
-.content-container {
-    height: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    resize: none;
-    background-color: #EAEFFA;
-}
+@media only screen and (min-width: 768px) {
+  .home-container {
+    height: 50vh;
+  }}
+@media only screen and (min-width: 360px) and {
+  .home-container {
+    height: 75vh;
+  }} 
+@media only screen and (max-width: 300px) and (orientation: portrait) {
+  .home-container {
+    height: 100vh;
+  }}
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
   width: 100%;
@@ -282,21 +290,16 @@ header {
     width: 100%;
   }
 }
-
-@media screen and (max-width: 576px) {
 .header-one {
-  font-size: 2rem;
-    font-family: azo-sans-web, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    }}
-    @media screen and (min-width: 768px) {
-      .header-one {
-        font-size: 3rem;
-          font-family: azo-sans-web, sans-serif;
-          font-weight: 400;
-          font-style: normal;
-          }}
+  font-size: 2.1rem;
+  font-family: azo-sans-web, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.header-two {
+  opacity: 80%;
+  font-size: 1.7rem;
+}
 p {
     font-family: azo-sans-web,sans-serif;
     font-weight: 400;
@@ -351,6 +354,13 @@ ul {
 .social-icon {
   margin: 1rem;
 }
+.social-icon: :hover {
+  background-color: white;
+}
+@media only screen and (max-width: 300px) and (orientation: portrait) {
+  .social-icon {
+    width: 1.5rem !important;
+  }}
 .img-shadow {
   box-shadow: 0px 4px 8px 0px gray;
 }
@@ -529,9 +539,12 @@ ul {
   font-family: azo-sans-web,sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 .portfolio-button:hover {
   color: lightblue;
   border-color:#004875;
+}
+.icon-col {
+  margin-left: -1rem;
 }
