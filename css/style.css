@@ -97,6 +97,7 @@ header {
   font-family: azo-sans-web,sans-serif;
   font-weight: 400;
   font-style: normal;
+  width: 170px;
 }
 .acadia-button:hover {
   color: white;
@@ -148,7 +149,7 @@ header {
     padding-bottom: 20px;   
 }
 .resume-content {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 15px;
 }
 .my-logo {
